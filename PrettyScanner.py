@@ -3,7 +3,7 @@ from termcolor import colored
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-socket.setdefaulttimeout(2)
+socket.setdefaulttimeout(0.01)
 
 
 def portscanner(port):
